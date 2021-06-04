@@ -19,6 +19,16 @@ body {
 }
 
 /* -------- HEADER --------- */
+
+header {
+    margin: auto;
+    width: 60vw;
+}
+
+.intro {
+    text-align: center;
+}
+
 #intro-name {
     font-family: metropolis-medium;
     font-size: 0.85em;
@@ -35,10 +45,6 @@ body {
 }
 
 /* ----- INTRODUCTION ------ */
-#introduction span {
-    background-color: #C4C4C4;
-    padding: 100px;
-}
 
 #introduction h2 {
     font-family: metropolis-bold;
@@ -48,4 +54,22 @@ body {
 #introduction p {
     font-family: metropolis-light;
     font-size: 0.83em;
+}
+
+#introduction {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70vw;
+    justify-content: center;
+    background-color: yellow;
+}
+
+#introduction p {
+    line-height: 1.6;
+    width: 23vw;
+}
+
+.introduction-divs {
+    margin: 5% 5% 5% 5%;
 }

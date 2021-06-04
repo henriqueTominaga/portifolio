@@ -1,0 +1,51 @@
+/* -------- FONTS --------- */
+@font-face {
+    font-family: metropolis-medium;
+    src: url(font/Metropolis-Medium.otf);
+}
+
+@font-face {
+    font-family: metropolis-light;
+    src: url(font/Metropolis-Light.otf);
+}
+
+@font-face {
+    font-family: metropolis-bold;
+    src: url(font/Metropolis-Bold.otf);
+}
+
+body {
+    color: #646060;
+}
+
+/* -------- HEADER --------- */
+#intro-name {
+    font-family: metropolis-medium;
+    font-size: 0.85em;
+}
+
+#main-name {
+    font-family: metropolis-bold;
+    font-size: 5em;
+}
+
+#surname {
+    font-family: metropolis-light;
+    font-size: 1.2em;
+}
+
+/* ----- INTRODUCTION ------ */
+#introduction span {
+    background-color: #C4C4C4;
+    padding: 100px;
+}
+
+#introduction h2 {
+    font-family: metropolis-bold;
+    font-size: 1.05em;
+}
+
+#introduction p {
+    font-family: metropolis-light;
+    font-size: 0.83em;
+}

@@ -130,10 +130,11 @@ body {
 #main-hobbies-content hr{
     max-width: 72%;
     background-color: white;
+    opacity: 80%;
     border-width: 1px;
     border-style: solid;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 #main-hobbies-content article {
@@ -142,15 +143,14 @@ body {
     margin-left: 8%;
     margin-right: 8%;
     justify-content: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    
 }
 
 .objetos-compostos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 1em;
-    justify-content: center;
     flex-wrap: wrap;
     margin: 1em 1em 1em 1em;
 }
@@ -161,6 +161,34 @@ body {
 
 .textos {
     margin: 0.5em 3em 0.5em 3em;
+}
+
+/* ------- ACADEMICO ------- */
+
+#main-title-courses {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 2em;
+    font-family: metropolis-bold; 
+}
+
+#main-courses img {
+    width: 10em;
+}
+
+.mini-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.individual-cards {
+    width: 15em;
+    height: 20em;
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: greenyellow;
 }
 
 

@@ -26,7 +26,7 @@ body {
 
 #intro-name {
     font-family: metropolis-medium;
-    font-size: 0.80em;
+    font-size: 0.60em;
     margin-top: 6em;
     margin-bottom: 12em;
     letter-spacing: 1.5px;
@@ -34,12 +34,12 @@ body {
 
 #main-name {
     font-family: metropolis-bold;
-    font-size: 5em;
+    font-size: 4em;
 }
 
 #surname {
     font-family: metropolis-light;
-    font-size: 1.2em;
+    font-size: 0.90em;
     margin-top: -2.4em;
     margin-bottom: 9em;
     letter-spacing: 1px;
@@ -50,21 +50,22 @@ body {
 .gif {
     text-align: center;
     font-family: metropolis-bold;
-    padding-top: 182px;
-    padding-bottom: 182px;
+    padding-top: 160px;
+    padding-bottom: 160px;
     background-color: #C4C4C4;
 }
 
 #introduction h2 {
     font-family: metropolis-bold;
-    font-size: 1.05em;
+    font-size: 0.90em;
     margin-top: 1.7em;
     margin-bottom: 1.5em;
 }
 
 #introduction p {
     font-family: metropolis-light;
-    font-size: 0.83em;
+    font-size: 0.73em;
+    
     line-height: 1.6;
     width: 24em;
     margin-bottom: 4em;
@@ -82,18 +83,18 @@ body {
 }
 
 .introduction-divs {
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2.8%;
+    margin-right: 2.8%;
 }
 
 /* ----- TRANSICTION ------- */
 
 #transicao {
-    width: 4em;
+    width: 3.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -10em;
+    margin-bottom: -9.8em;
 }
 
 /* ------- HOBBIES --------- */
@@ -107,20 +108,22 @@ body {
 
 #title-hobbies {
     text-align: center;
-    font-size: 2.2em;
+    font-size: 1.80em;
     padding-top: 4em;
     margin-bottom: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     font-family: metropolis-bold;
 }
 
 .title-content {
     font-family: metropolis-bold;
-    font-size: 1.05em;
+    font-size: 0.90em;
 }
 
 #main-hobbies-content p {
     font-family: metropolis-light;
-    font-size: 0.83em;
+    font-size: 0.73em;
     line-height: 1.6;
     max-width: 54em;
     flex-wrap: wrap;
@@ -128,7 +131,7 @@ body {
 }
 
 #main-hobbies-content hr{
-    max-width: 72%;
+    width: 68vmax;
     background-color: white;
     opacity: 80%;
     border-width: 1px;
@@ -156,7 +159,7 @@ body {
 }
 
 .objetos-compostos img {
-    width: 5em;
+    width: 4.5em;
 }
 
 .textos {
@@ -167,13 +170,15 @@ body {
 
 #main-title-courses {
     text-align: center;
-    font-size: 2.2em;
-    margin-bottom: 2em;
+    font-size: 1.80em;
+    margin-bottom: 4em;
+    margin-top: -100px;
     font-family: metropolis-bold; 
 }
 
 #main-courses img {
-    width: 10em;
+    width: 12em;
+    padding: 1.7em 1em 1.65em 1em;
 }
 
 .mini-cards {
@@ -184,12 +189,83 @@ body {
 }
 
 .individual-cards {
-    width: 15em;
-    height: 20em;
-    margin-left: 2em;
-    margin-right: 2em;
-    background-color: greenyellow;
+    width: 14em;
+    height: 18em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 6em;
+    color: white;
+    background-color: #fff0f0;
+    border: #DBD8D8;
+    border-style: solid;
+    border-width: 0.01px;
+    
 }
 
+.title-track-complete {
+    font-family: metropolis-medium;
+    font-size: 0.50em;
+    background-color: #6BC074;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    margin-top: -2em;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.content-courses-complete {
+    background-color: #6BC074;
+    font-family: metropolis-medium;
+    font-size: 0.73em;
+    padding: 1em 1em 1em 1.3em;
+    margin-top: -0.5em;
+    letter-spacing: 0.04em;
+    height: 9.7em;
+}
+
+.content-courses-complete h2 {
+    font-family: metropolis-medium;
+    font-size: 1.1em;
+}
+
+.content-courses-complete p {
+    padding-right: 1em;
+    line-height: 1.3em;
+}
+
+.title-track-progress {
+    font-family: metropolis-medium;
+    font-size: 0.50em;
+    background-color: #5CB1D6;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+    margin-top: -2em;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
+
+.content-courses-progress {
+    background-color: #5CB1D6;
+    font-family: metropolis-medium;
+    font-size: 0.73em;
+    padding: 1em 1em 1em 1.3em;
+    margin-top: -0.5em;
+    letter-spacing: 0.04em;
+    height: 9.7em;
+}
+
+.content-courses-progress h2 {
+    font-family: metropolis-medium;
+    font-size: 1.1em;
+}
+
+.content-courses-progress p {
+    padding-right: 1em;
+    line-height: 1.3em;
+}
 
 

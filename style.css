@@ -268,4 +268,66 @@ body {
     line-height: 1.3em;
 }
 
+/* ------ PROFISSIONAL ----- */
 
+#title-professional {
+    text-align: center;
+    font-size: 1.80em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    font-family: metropolis-bold;
+}
+
+#main-container-professional {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-right: 50%;
+    padding-left: 18%;
+    padding-right: 3%;
+    border-right: 2px solid #646060;
+}
+
+.details-career h2 {
+    font-family: metropolis-bold;
+    font-size: 0.90em;
+    flex-wrap: wrap;
+    line-height: 1.6;
+}
+
+.details-career h3 {
+    font-family: metropolis-bold;
+    font-size: 0.80em;
+    flex-wrap: wrap;
+    margin-top: -0.7em;
+    margin-bottom: 2em;
+}
+
+.details-career p {
+    font-family: metropolis-light;
+    font-size: 0.73em;
+    line-height: 1.6;
+    flex-wrap: wrap;
+}
+
+#first-career {
+    text-align: right;
+}
+
+#second-career {
+    text-align: left;
+    margin-top: 5em;
+    margin-left: 121%;
+    width: 100%;
+}
+
+#third-career {
+    text-align: right;
+    margin-top: 5em;
+}
+
+#forth-career {
+    text-align: right;
+    margin-top: 5em;
+}

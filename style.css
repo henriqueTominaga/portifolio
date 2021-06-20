@@ -14,6 +14,11 @@
     src: url(font/Metropolis-Bold.otf);
 }
 
+@font-face {
+    font-family: inter-regular;
+    src: url(font/Inter-Regular.ttf);
+}
+
 body {
     color: #646060;
 }
@@ -29,7 +34,7 @@ body {
     font-size: 0.60em;
     margin-top: 6em;
     margin-bottom: 12em;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
 
 #main-name {
@@ -64,12 +69,11 @@ body {
 
 #introduction p {
     font-family: metropolis-light;
-    font-size: 0.73em;
-    
-    line-height: 1.6;
-    width: 24em;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    width: 25.5em;
     margin-bottom: 4em;
-    text-align: justify;
 }
 
 #introduction {
@@ -123,11 +127,11 @@ body {
 
 #main-hobbies-content p {
     font-family: metropolis-light;
-    font-size: 0.73em;
-    line-height: 1.6;
-    max-width: 54em;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    max-width: 55em;
     flex-wrap: wrap;
-    text-align: justify;
 }
 
 #main-hobbies-content hr{
@@ -196,10 +200,7 @@ body {
     margin-bottom: 6em;
     color: white;
     background-color: #fff0f0;
-    border: #DBD8D8;
-    border-style: solid;
-    border-width: 0.01px;
-    
+    box-shadow: 1px 5px 10px -3px grey;
 }
 
 .title-track-complete {
@@ -217,11 +218,11 @@ body {
 
 .content-courses-complete {
     background-color: #6BC074;
-    font-family: metropolis-medium;
+    font-family: metropolis-light;
     font-size: 0.73em;
     padding: 1em 1em 1em 1.3em;
     margin-top: -0.5em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     height: 9.7em;
 }
 
@@ -250,11 +251,11 @@ body {
 
 .content-courses-progress {
     background-color: #5CB1D6;
-    font-family: metropolis-medium;
+    font-family: metropolis-light;
     font-size: 0.73em;
     padding: 1em 1em 1em 1.3em;
     margin-top: -0.5em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
     height: 9.7em;
 }
 
@@ -298,7 +299,8 @@ body {
 
 .details-career h3 {
     font-family: metropolis-bold;
-    font-size: 0.80em;
+    font-size: 0.81em;
+    letter-spacing: 0.02em;
     flex-wrap: wrap;
     margin-top: -0.7em;
     margin-bottom: 2em;
@@ -306,8 +308,9 @@ body {
 
 .details-career p {
     font-family: metropolis-light;
-    font-size: 0.73em;
-    line-height: 1.6;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
     flex-wrap: wrap;
 }
 
@@ -330,4 +333,203 @@ body {
 #forth-career {
     text-align: right;
     margin-top: 5em;
+}
+
+/* --- TRAB. VOLUTÁRIOS --- */
+
+#title-volunteer {
+    text-align: center;
+    font-size: 1.80em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    font-family: metropolis-bold;
+}
+
+.container-volunteers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+
+.volunteer-img {
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.volunteer-img img {
+    width: 24em; /* width of container */
+    height: 6em; /* height of container */
+    object-fit: cover;
+}
+
+.volunteer-info {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 33em;
+    align-items: center;
+}
+
+.volunteer-info h2 {
+    font-family: metropolis-bold;
+    font-size: 0.90em;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+}
+
+.volunteer-info p {
+    font-family: metropolis-light;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+}
+
+/* --- RECONHECIMENTOS ----- */
+
+#title-gratitude {
+    text-align: center;
+    font-size: 1.80em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    font-family: metropolis-bold;
+}
+
+#gratitude-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#gratitude-img img {
+    height: 19em;
+    border-width: 0.01px;
+    margin: 1em 1em 1em 1em;
+    border: 1px solid white;
+    box-shadow: 1px 5px 10px -3px grey;
+}
+
+#gratitude-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em; /*PAAAAREI AQUUUII*/
+}
+
+#gratitude-content h2 {
+    font-family: metropolis-bold;
+    font-size: 0.90em;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+#gratitude-content p {
+    font-family: metropolis-light;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    max-width: 70em;
+}
+
+/* -------- CONTATO -------- */
+
+/* CONTINUAREI EM UM MOMENTO POSTERIOR
+
+#title-contact {
+    text-align: center;
+    font-size: 1.80em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    font-family: metropolis-bold;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15em;
+    margin-right: 3em;
+    max-width: 30em;
+}
+
+label {
+    font-family: metropolis-medium;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+
+
+input, textarea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: metropolis-light;
+    font-size: 0.72em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    width: 40em;
+    height: 1em;
+    border: 1px solid #646060;
+    margin-top: -0.20em;
+    padding: 1em 1em 1em 1em;
+    position: relative;
+}
+
+textarea {
+    height: 15em;
+}
+*/ 
+
+/* -------- FOOTER --------- */
+
+footer {
+    margin-top: 12em;
+    font-family: metropolis-bold;
+    font-size: 0.75em;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+    border-top: 1.5px solid #646060;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 2em;
+    margin-left: 0.90em;
+    margin-right: 0.90em;
+}
+
+#menu-footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+#social-media {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }

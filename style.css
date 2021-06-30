@@ -1,3 +1,11 @@
+/* ---- MEDIA QUERIES ----- */
+
+@media screen and (min-width: 800px) {
+    main {
+        margin: 1em 2em;
+    }
+}
+
 /* -------- FONTS --------- */
 @font-face {
     font-family: metropolis-medium;
